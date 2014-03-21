@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference  android:title="@string/net_tweaks" android:key="net" android:summaryOn="Net tweaks enabled" android:summaryOff="Net tweaks disabled"/>
+        <CheckBoxPreference   android:title="@string/sd_tweaks" android:key="sd" android:summaryOn="SD tweaks enabled" android:summaryOff="SD tweaks disabled"/>
+    <CheckBoxPreference  android:title="@string/crt" android:key="crtoff" android:summaryOn= "@string/crt_on" android:summaryOff="@string/crt_off"/>
+    <ListPreference  android:title="@string/gps" android:key="gps" android:entries="@array/gps_name" android:entryValues="@array/gps_val" />
+</PreferenceScreen>

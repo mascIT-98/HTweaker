@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="drawer_open">Open navigation drawer</string>
+<string name="drawer_close">Close navigation drawer</string>
+    <string name="app_name">"   H~Tweaker</string>  
+    <string name="xda">XDA app thread</string>
+    <string name="git">Github link</string>
+    <string name="gpu">Use only GPU sw render</string>
+    <string name="gpu_off">Both GPU and android</string>
+    <string name="gpu_on">Only GPU rendering</string>
+    <string name="crt">CRT-OFF animation</string>
+    <string name="crt_on">Enabled</string>
+    <string name="crt_off">Disabled</string>
+    <string name="gps">GPS country chooser</string>
+    <string name="iostats">IO stats</string>
+    <string name="ext">EXT 4 enhancements</string>
+    <string name="cpu">CPU TUNE</string>
+    <string name="sleepers">Battery fair sleepers</string>
+    <string name="action_settings">Settings</string>
+    <string name="kernel">KERNEL</string>
+    <string name="misc">MISC</string>
+    <string name="fsync">Fsync</string>
+    <string name="about">About</string>
+    <string name="guide">GUIDE</string>
+    <string name="expl">" EXPLAINING TWEAKS\n\nKERNEL TWEAKS\n-Added entropy\n-Edited dirty_expire_centisecs and writeback values to an highter to improve battery\n-reduced swappiness to 30-cache pressure value to improve performance\n-page cluster set to 3, better multitask\n\nFSYNC: fsync is an android capability that allows the system to write continuously data from ram to flash to avoid data loss due to a sudden shoutdown. It is enabled by default, if you have a stable system you can also disable it because it can improve performance (less writing by cpu, less battery using, better performance!) It's at your risk!\n\nCRT-OFF EFFECT: Introduced in 2.3.6 it is a screen of animation, if your kernel supports it you can enable or disable it in time by this app\n\nCPU TUNE: included a cpu control, you can choose frequencies, governors and schedulers, and the settings are sticky also after reboot!\n\nIO STATS: disabling this the system overall is more smooth\n\nEXT4 enhancements: various tweaks to the ext4 partitions, all should be better and smoothly\n\nSD CARD TWEAKS: increase sd card r/w from 128 (def) to 2048, now you will have better read and write speeds of your sdcard\n\nBATTERY: You can set the deepest sleep state (3-4-5) and disable the fair sleepers, this can improve batery backup\n\nVACUUM: It cleans the system, the apps, it is such a cleaner that keeps clean the sqlite databases.\n\nGPS: choose your favourite country and enjoy a faster gps locking! No more waiting!\n\nGPU renderer: You can disable the hardware render to enable the software one. UI is snappier.\n\nMAJOR TWEAKS WILL BE ENABLED ONLY AFTER REBOOT!\n     ENJOY!\n"</string>
+    <string name="deep">Deep sleep state</string>
+    <string name="perf_tweaks">Enhance performance</string>
+    <string name="sd_tweaks">SD tweaks</string>
+    <string name="bat">BATTERY</string>
+    <string name="net_tweaks">Internet tweaks</string>
+    <string name="governor">Governor</string>
+    <string name="ioscheduler">I/O scheduler</string>
+    <string name="vac_tweaks">Vacuuming</string>
+    <string name="restore">Delete all scripts and restore to default settings</string> 
+    <string name="home">"                Let\'s tart Tuning! \n Swipe the menu from left to right</string>
+    <string name="dlg_noroot_title">Missing root permissions</string>
+    <string name="dlg_noroot_body">You must be rooted in order to use this app.</string>
+    <string name="dlg_nofs_title">Your device seems to lack frequency scaling</string>
+    <string name="dlg_nofs_body">If you are running a custom ROM or if you think
+        your phone supports frequency scaling, send your CPU data in order to
+        add support for your phone.</string>
+    <string name="exit">Exit</string>
+    <string name="send">Send</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="ok_updated_freqs">Success!\nMin: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+    <string name="err_update_failed">Error: did you allow SuperUser permissions?</string>
+    <string name="notify_title_safety">Values not applied</string>
+    <string name="notify_title_success">Values applied successfully</string>
+    <string name="notify_success">Min: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+    <string name="apply_on_boot">Apply on boot</string>
+    <string name="apply">Apply</string>
+    <string name="requested">Requested</string>
+    <string name="current">Current</string>
+    <string name="max_freq">Max. clock freq.</string>
+    <string name="min_freq">Min. clock freq.</string>
+    <string name="notify_nlj_safety_found">%1$s found, values not applied</string>
+    <string name="notify_safety_shutdown">Unclean shutdown, values not applied</string>
+    <string name="sleepers_on">Fair sleepers disabled</string>
+    <string name="sleepers_off">Set to the default state</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >HOME</item>
+        <item >PERFORMANCE</item>
+        <item >BATTERY</item>
+        <item >CPU</item>
+        <item >MISC</item>
+        <item >HELP</item>
+        
+        
+    </string-array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="preference_file_key">test</string>
+
+</resources>

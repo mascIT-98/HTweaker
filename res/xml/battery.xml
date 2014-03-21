@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:title="@string/deep" android:key="deep" android:entries="@array/deep_name" android:entryValues="@array/deep_val"  />
+    <CheckBoxPreference android:title="@string/sleepers" android:key="sleepers" android:summaryOn="@string/sleepers_on" android:summaryOff="@string/sleepers_off"/>
+</PreferenceScreen>

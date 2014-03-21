@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+   <string-array name="deep_name">
+        <item>3 (default)</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="deep_val">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string-array name="gps_name">
+        <item>Europe</item>
+        <item>North-America</item>
+        <item>South-America</item>
+        <item>Asia</item>
+    </string-array>
+    <string-array name="gps_val">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    
+</resources>

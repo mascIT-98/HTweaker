@@ -1,0 +1,24 @@
+#!system/bin/sh
+
+#Performance
+echo "4096" > /proc/sys/kernel/shmmni;
+echo "10000" > /proc/sys/kernel/msgmni;
+echo "64000" > /proc/sys/kernel/msgmax;
+echo "10" > /proc/sys/kernel/panic;
+echo "0" > /proc/sys/kernel/panic_on_oops;
+echo "10" > /proc/sys/fs/lease-break-time;
+echo "30" > /proc/sys/vm/swappiness;
+echo "4000" > /proc/sys/vm/dirty_expire_centisecs;
+echo "4000" > /proc/sys/vm/dirty_writeback_centisecs;
+echo "0" > /proc/sys/vm/oom_kill_allocating_task;
+echo "0" > /proc/sys/vm/panic_on_oom;
+echo "5" > /proc/sys/vm/dirty_background_ratio;
+echo "90" > /proc/sys/vm/dirty_ratio;
+echo "10" > /proc/sys/vm/vfs_cache_pressure;
+echo "1" > /proc/sys/vm/overcommit_memory;
+echo "4" > /proc/sys/vm/min_free_order_shift;
+echo "0" > /proc/sys/vm/block_dump;
+echo "1" > /proc/sys/vm/oom_dump_tasks;
+echo "3" > /proc/sys/vm/page-cluster;
+echo "256" > /proc/sys/kernel/random/write_wakeup_threshold;
+echo "256" > /proc/sys/kernel/random/read_wakeup_threshold;

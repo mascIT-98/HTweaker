@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<TableLayout
+		android:id="@+id/tbl_config"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true" >
+
+		<include layout="@layout/main_f_header" />
+
+		<include layout="@layout/main_f_row_max" />
+
+		<include layout="@layout/main_f_row_min" />
+
+		<include layout="@layout/main_f_row_gov" />
+
+		<include layout="@layout/main_f_row_iosched" />
+	</TableLayout>
+
+	<CheckBox
+		android:id="@+id/ckb_apply_on_boot"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/tbl_config"
+		android:layout_centerHorizontal="true"
+		android:paddingBottom="10dp"
+		android:paddingTop="10dp"
+		android:text="@string/apply_on_boot" />
+
+	<include layout="@layout/main_f_buttons" />
+
+</RelativeLayout>
