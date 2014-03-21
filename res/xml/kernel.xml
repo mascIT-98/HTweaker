@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-            <CheckBoxPreference  android:title="@string/perf_tweaks" android:key="performance" android:summaryOn="Performance tweaks enabled" android:summaryOff="Performance tweaks disabled"/>
-            <CheckBoxPreference android:title="@string/fsync" android:key="fsync" android:summaryOn="Fsync disabled" android:summaryOff="Fsync enabled"/>
-    <CheckBoxPreference android:title="@string/vac_tweaks" android:key="vac" android:summaryOn="Vacuuming enabled" android:summaryOff="vacuuming disabled"/>
-    <CheckBoxPreference  android:title="@string/iostats" android:key="iostats" android:summaryOn="IO stats disabled" android:summaryOff="IO stats enabled"/>
-            <CheckBoxPreference android:title="@string/ext" android:key="ext" android:summaryOn="EXT tweaks enabled" android:summaryOff="EXT tweaks disabled"/>
+            <CheckBoxPreference  android:title="@string/perf_tweaks" android:key="performance" android:summaryOn="@string/perf_on" android:summaryOff="@string/perf_off"/>
+            <CheckBoxPreference android:title="@string/fsync" android:key="fsync" android:summaryOn="@string/fsync_on" android:summaryOff="@string/fsync_off"/>
+    <CheckBoxPreference android:title="@string/vac_tweaks" android:key="vac" android:summaryOn="@string/vac_on" android:summaryOff="@string/vac_off"/>
+    <CheckBoxPreference  android:title="@string/iostats" android:key="iostats" android:summaryOn="@string/iostats_on" android:summaryOff="@string/iostats_off"/>
+            <CheckBoxPreference android:title="@string/ext" android:key="ext" android:summaryOn="@string/ext_on" android:summaryOff="@string/ext_off"/>
     <CheckBoxPreference  android:title="@string/gpu" android:key="gpu" android:summaryOn="@string/gpu_on" android:summaryOff="@string/gpu_off"/>
 </PreferenceScreen>

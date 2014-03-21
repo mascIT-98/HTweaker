@@ -49,7 +49,7 @@ public class MainActivity extends AbstractNavDrawerActivity {
         	  public void run() {
         	getFragmentManager().beginTransaction().replace(R.id.content_frame, new Kernel()).commit();  
         	  }
-        	}, 400);
+        	}, 300);
             break;
         case 2:    
         	Handler h2 = new Handler();
@@ -58,7 +58,7 @@ public class MainActivity extends AbstractNavDrawerActivity {
         	  public void run() {
         	getFragmentManager().beginTransaction().replace(R.id.content_frame, new Misc()).commit();  
         	  }
-        	}, 400);
+        	}, 300);
         	break;
         case 3:
         	Handler h3 = new Handler();
@@ -67,7 +67,7 @@ public class MainActivity extends AbstractNavDrawerActivity {
         	  public void run() {
         	getFragmentManager().beginTransaction().replace(R.id.content_frame, new Battery()).commit();  
         	  }
-        	}, 400);
+        	}, 300);
         	break;
         case 4:
         	Handler h4 = new Handler();
@@ -76,7 +76,7 @@ public class MainActivity extends AbstractNavDrawerActivity {
         	  public void run() {
         	getFragmentManager().beginTransaction().replace(R.id.content_frame, new CpuFrag()).commit();  
         	  }
-        	}, 400);
+        	}, 300);
         	break;
         case 5:
         	Handler h5 = new Handler();
@@ -85,7 +85,7 @@ public class MainActivity extends AbstractNavDrawerActivity {
         	  public void run() {
         	getFragmentManager().beginTransaction().replace(R.id.content_frame, new Explain()).commit();  
         	  }
-        	}, 400);
+        	}, 300);
         	break;
         case 6:
         	Handler h6 = new Handler();
@@ -94,7 +94,7 @@ public class MainActivity extends AbstractNavDrawerActivity {
         	  public void run() {
         	getFragmentManager().beginTransaction().replace(R.id.content_frame, new Help()).commit();  
         	  }
-        	}, 400);
+        	}, 300);
         	break;
         }      
     }
