@@ -38,7 +38,7 @@ class  Utils {
                 }
             }
         } catch (Exception e) {
-            final Activity activity = new MainActivity();
+            final Activity activity = new Cpu();
             activity.runOnUiThread(new Runnable() {
                 public void run() {
                     Toast.makeText(activity, "Error Occured...!", Toast.LENGTH_SHORT).show();

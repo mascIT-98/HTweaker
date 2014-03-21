@@ -27,8 +27,9 @@ public class Misc extends PreferenceFragment implements OnSharedPreferenceChange
 	@Override
     public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		SharedPreferences sharedPref = this.getActivity().getSharedPreferences("misc",0);
         addPreferencesFromResource(R.xml.misc);
-        SharedPreferences sharedPref = this.getActivity().getSharedPreferences("misc",0);
+        
         cr = getActivity().getContentResolver();
                 onSharedPreferenceChanged(sharedPref,"crtoff");
                 onSharedPreferenceChanged(sharedPref,"sd");
